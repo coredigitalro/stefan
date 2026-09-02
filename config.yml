@@ -1,0 +1,79 @@
+# Configurare Decap CMS (fostul Netlify CMS) pentru site-ul Ștefan Sisteme Acoperiș.
+# Documentație completă: https://decapcms.org/docs/configuration-options/
+
+backend:
+  name: git-gateway
+  branch: main # numele branch-ului din GitHub pe care se publică modificările
+
+# Editare locală, fără login, cu `npx decap-server` (opțional, util la testare):
+# local_backend: true
+
+media_folder: "assets/img" # unde se salvează pozele urcate implicit
+public_folder: "assets/img" # calea folosită în site pentru acele poze
+
+publish_mode: simple
+
+collections:
+  - name: "site"
+    label: "Conținut site"
+    files:
+      - file: "content/site.json"
+        label: "Date site"
+        name: "site"
+        description: "Textele, telefonul, pozele și video-urile afișate pe site."
+        fields:
+          - { label: "Nume firmă", name: "brand", widget: "string", hint: "Apare în antet, footer și în titlul paginii." }
+          - { label: "Ani experiență", name: "years_experience", widget: "number", value_type: "int" }
+          - { label: "Telefon afișat", name: "phone_display", widget: "string", hint: "Ex: 0759 570 352" }
+          - { label: "Telefon pentru apelare", name: "phone_tel", widget: "string", hint: "Doar cifre, fără spații. Ex: 0759570352" }
+          - { label: "Număr WhatsApp", name: "whatsapp_number", widget: "string", hint: "Cu prefix țară, fără +. Ex: 40759570352" }
+          - { label: "Cheie Web3Forms (formular contact)", name: "web3forms_access_key", widget: "string", required: false, hint: "Gratuit de pe web3forms.com — lipești aici cheia primită pe email. Fără ea, formularul îți trimite oamenii să sune direct." }
+          - { label: "Titlu SEO (tab browser + Google)", name: "seo_title", widget: "string", hint: "Poți folosi {years} — se înlocuiește automat cu anii de experiență." }
+          - { label: "Descriere SEO (Google)", name: "seo_description", widget: "text", hint: "Poți folosi {years}." }
+
+          - label: "Secțiunea principală (Hero)"
+            name: "hero"
+            widget: "object"
+            fields:
+              - { label: "Text mic deasupra titlului", name: "eyebrow", widget: "string" }
+              - { label: "Titlu principal", name: "title_main", widget: "string" }
+              - { label: "Titlu accent (partea înclinată)", name: "title_emphasis", widget: "string" }
+              - { label: "Text sub titlu", name: "lede", widget: "text", hint: "Poți folosi {years}." }
+
+          - label: "Servicii"
+            name: "services"
+            widget: "list"
+            summary: "{{fields.title}}"
+            fields:
+              - { label: "Titlu", name: "title", widget: "string" }
+              - { label: "Descriere", name: "description", widget: "text" }
+              - { label: "Poză", name: "image", widget: "image" }
+              - { label: "Text alternativ poză (accesibilitate)", name: "alt", widget: "string", required: false }
+
+          - label: "Înainte & După"
+            name: "before_after"
+            widget: "list"
+            summary: "{{fields.label_bold}}"
+            fields:
+              - { label: "Poză", name: "image", widget: "image" }
+              - { label: "Text alternativ poză", name: "alt", widget: "string", required: false }
+              - { label: "Etichetă (partea îngroșată)", name: "label_bold", widget: "string" }
+              - { label: "Restul textului etichetei", name: "label_rest", widget: "string" }
+
+          - label: "Galerie lucrări"
+            name: "gallery"
+            widget: "list"
+            summary: "{{fields.tag}}"
+            fields:
+              - { label: "Poză", name: "image", widget: "image" }
+              - { label: "Text alternativ poză", name: "alt", widget: "string", required: false }
+              - { label: "Etichetă", name: "tag", widget: "string" }
+
+          - label: "Filmări"
+            name: "videos"
+            widget: "list"
+            fields:
+              - { label: "Fișier video (.mp4)", name: "video", widget: "file", media_folder: "assets/video", public_folder: "assets/video" }
+              - { label: "Poză copertă (poster)", name: "poster", widget: "image", media_folder: "assets/video", public_folder: "assets/video", required: false }
+
+          - { label: "Text despre firmă (footer)", name: "footer_about", widget: "text", hint: "Poți folosi {years}." }

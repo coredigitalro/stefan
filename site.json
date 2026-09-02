@@ -1,0 +1,169 @@
+{
+  "brand": "Ștefan Sisteme Acoperiș",
+  "years_experience": 24,
+  "phone_display": "0759 570 352",
+  "phone_tel": "0759570352",
+  "whatsapp_number": "40759570352",
+  "web3forms_access_key": "",
+  "seo_title": "Ștefan Sisteme Acoperiș | Montaj Acoperișuri, Șarpante și Sisteme Pluviale — {years} Ani Experiență",
+  "seo_description": "Firmă cu {years} ani de experiență în montaj acoperișuri, șarpante, țiglă metalică, ferestre Velux și sisteme pluviale, la nivel național. Lucrări reale, materiale Bilka, Lindab, Wetterbest și Velux. Ofertă gratuită.",
+  "hero": {
+    "eyebrow": "Montaj & Reparații — Acoperire Națională",
+    "title_main": "Acoperișuri făcute",
+    "title_emphasis": "ca la carte.",
+    "lede": "{years} de ani pe șantier, nu în birou. Șarpante, țiglă metalică, tablă fălțuită, ferestre de mansardă și sisteme pluviale — executate de echipe proprii, cu materiale de la producători consacrați."
+  },
+  "services": [
+    {
+      "title": "Montaj țiglă metalică",
+      "image": "assets/img/montaj-tigla-gri.jpg",
+      "alt": "Montaj țiglă metalică",
+      "description": "Ușoară, durabilă și disponibilă în orice culoare. Montaj corect pe folie anticondens și șipcă dimensionată, cu accesorii originale de la producător."
+    },
+    {
+      "title": "Șarpante & dulgherie",
+      "image": "assets/img/sarpanta-folie.jpg",
+      "alt": "Execuție șarpantă din lemn",
+      "description": "Construcție și reparație de șarpante din lemn masiv — căpriori, pane, cosoroabe și contravântuiri, cu folie anticondens montată corect."
+    },
+    {
+      "title": "Tablă fălțuită & cutată",
+      "image": "assets/img/tabla-faltuita.jpg",
+      "alt": "Montaj tablă fălțuită",
+      "description": "Soluție modernă pentru case și hale. Fălț dublu, etanșeitate maximă, aspect curat — inclusiv pe pante mici unde țigla nu funcționează."
+    },
+    {
+      "title": "Ferestre de mansardă",
+      "image": "assets/img/ferestre-velux.jpg",
+      "alt": "Montaj ferestre de mansardă Velux",
+      "description": "Montaj ferestre Velux cu rame de etanșare originale și racord corect la învelitoare. Lumină naturală, fără infiltrații."
+    },
+    {
+      "title": "Izolații mansardă",
+      "image": "assets/img/izolatie-mansarda.jpg",
+      "alt": "Izolație mansardă",
+      "description": "Vată minerală cu barieră de vapori montată etanș, fără punți termice. Mansarda devine locuibilă vara și iarna, cu facturi mai mici."
+    },
+    {
+      "title": "Terase & hidroizolații",
+      "image": "assets/img/terasa-hidroizolatie.jpg",
+      "alt": "Hidroizolație terasă",
+      "description": "Membrană bituminoasă sudată, cu atice și racorduri executate corect — acolo unde apar de obicei infiltrațiile."
+    },
+    {
+      "title": "Sisteme pluviale & streșini",
+      "image": "assets/img/ba-streasina.jpg",
+      "alt": "Sistem pluvial și streașină",
+      "description": "Jgheaburi și burlane dimensionate după suprafața acoperișului, plus închidere de streașină care arată bine și ține apa departe de fațadă."
+    },
+    {
+      "title": "Panouri sandwich",
+      "image": "assets/img/panou-sandwich.jpg",
+      "alt": "Montaj panouri sandwich",
+      "description": "Termoizolante, pentru hale, depozite și anexe. Montaj rapid, izolație și învelitoare într-un singur strat."
+    },
+    {
+      "title": "Foișoare & terase acoperite",
+      "image": "assets/img/terasa-foisor.jpg",
+      "alt": "Foișor și terasă acoperită",
+      "description": "Structuri din lemn tratat, acoperite în același stil cu casa. Proiectate să reziste la vânt și zăpadă, nu doar să arate bine în poze."
+    }
+  ],
+  "before_after": [
+    {
+      "image": "assets/img/ba-eternit-tabla.jpg",
+      "alt": "Acoperiș de azbociment înlocuit cu tablă",
+      "label_bold": "Înlocuire azbociment",
+      "label_rest": "învelitoare nouă din tablă"
+    },
+    {
+      "image": "assets/img/ba-demolare-nou.jpg",
+      "alt": "Acoperiș vechi demolat și refăcut complet",
+      "label_bold": "Refacere completă",
+      "label_rest": "de la demolare la acoperiș nou"
+    },
+    {
+      "image": "assets/img/ba-streasina.jpg",
+      "alt": "Streașină închisă și sistem pluvial nou",
+      "label_bold": "Închidere streașină",
+      "label_rest": "sistem pluvial nou"
+    }
+  ],
+  "gallery": [
+    {
+      "image": "assets/img/tigla-metalica-maro.jpg",
+      "alt": "Acoperiș finalizat din țiglă metalică maro",
+      "tag": "Țiglă metalică"
+    },
+    {
+      "image": "assets/img/folie-bilka-sipci.jpg",
+      "alt": "Folie anticondens și șipci montate",
+      "tag": "Folie & șipcă"
+    },
+    {
+      "image": "assets/img/acoperis-rosu-lucru.jpg",
+      "alt": "Montaj țiglă metalică în lucru",
+      "tag": "Montaj în lucru"
+    },
+    {
+      "image": "assets/img/ferestre-velux.jpg",
+      "alt": "Ferestre de mansardă montate",
+      "tag": "Ferestre mansardă"
+    },
+    {
+      "image": "assets/img/tabla-cutata-coama.jpg",
+      "alt": "Coamă tablă cutată finalizată",
+      "tag": "Coamă tablă"
+    },
+    {
+      "image": "assets/img/folie-bilka-vertical.jpg",
+      "alt": "Astereală și folie pe acoperiș",
+      "tag": "Astereală"
+    },
+    {
+      "image": "assets/img/livrare-bilka.jpg",
+      "alt": "Livrare materiale pe șantier",
+      "tag": "Livrare materiale"
+    },
+    {
+      "image": "assets/img/panou-sandwich.jpg",
+      "alt": "Montaj panou sandwich",
+      "tag": "Panou sandwich"
+    },
+    {
+      "image": "assets/img/izolatie-mansarda.jpg",
+      "alt": "Izolație mansardă finalizată",
+      "tag": "Izolație mansardă"
+    },
+    {
+      "image": "assets/img/terasa-hidroizolatie.jpg",
+      "alt": "Hidroizolație terasă cu atic",
+      "tag": "Hidroizolație"
+    },
+    {
+      "image": "assets/img/terasa-foisor.jpg",
+      "alt": "Foișor acoperit lângă casă",
+      "tag": "Foișor"
+    },
+    {
+      "image": "assets/img/tabla-faltuita.jpg",
+      "alt": "Acoperiș din tablă fălțuită",
+      "tag": "Tablă fălțuită"
+    }
+  ],
+  "videos": [
+    {
+      "video": "assets/video/lucrare-1.mp4",
+      "poster": "assets/video/poster-1.jpg"
+    },
+    {
+      "video": "assets/video/lucrare-2.mp4",
+      "poster": "assets/video/poster-2.jpg"
+    },
+    {
+      "video": "assets/video/lucrare-3.mp4",
+      "poster": "assets/video/poster-3.jpg"
+    }
+  ],
+  "footer_about": "{years} de ani de experiență în acoperișuri, șarpante și sisteme pluviale. Echipe proprii, materiale de la producători consacrați, lucrări la nivel național, în toată țara."
+}
